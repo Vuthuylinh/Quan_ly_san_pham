@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quản lý sản phẩm</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="showProduct();">
+<div class="container">
+    <h3>Add New product</h3>
+    <input type="text" id="newProduct">
+    <input type="button" value="Add" onclick="addNewProduct();">
+</div>
+<div>
+    <h3>Display All Product</h3>
+    <table>
+
+        <thead>
+            <tr>
+                <td> Product Name</td>
+                <td id="amountOfProduct"></td>
+            </tr>
+        </thead>
+        <tbody id="showAllProduct">
+
+        </tbody>
+    </table>
+</div>
+<div id="editProduct">
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
